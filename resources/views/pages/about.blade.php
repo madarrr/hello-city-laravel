@@ -5,5 +5,5 @@ About Us | {{config('app.name')}}
 @section('content')
        <p> by THXG STONE</p>
        <p> <a href="{{ route('home') }}">Revenir a la page d'acceuil </a></p>
-       <img src="img/img1.png" alt="image bart simpson">
+       <img src="{{  asset('img/img1.png') }}" alt="image bart simpson">
 @endsection
