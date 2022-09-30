@@ -1,6 +1,6 @@
 @extends('base')
 @section('title')
-Hello city
+{{config('app.name')}}
 @endsection
 @section('content')
        <h1>Hello from ivory coast !</h1>
